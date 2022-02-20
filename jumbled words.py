@@ -52,5 +52,4 @@ def play():
                 thank(p1name,p2name,pp1,pp2)
                 break
         turn=turn+1
-
 play()
