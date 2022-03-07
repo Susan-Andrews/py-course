@@ -5,7 +5,7 @@ def magic_square(n):
 
     magicsquare=[]
     for i in range(n):
-        l=[]
+        l=[]   #new list to add everything
         for j in range(n):
             l.append(0)     # l=[0,0,0]
         magicsquare.append(l)
@@ -38,4 +38,4 @@ def magic_square(n):
             print(magicsquare[i][j],end=" ") # in a single line
         print()     # splits into row
     print("sum of each r/c/diagonal is:"+str(n*(n**2+1)/2))
-magic_square(3)             # to print 3x3  
+magic_square(3)             # to print 3x3. chane number in order to give different size of magic squares.
