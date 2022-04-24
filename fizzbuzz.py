@@ -1,3 +1,5 @@
+#this works under the modulo operator
+
 def fizzbuzz(r):
  for i in range(1,r):
     if(i%3==0 and i%5==0):
@@ -10,4 +12,4 @@ def fizzbuzz(r):
         print(i) 
 
 
-fizzbuzz(51)
+fizzbuzz(51)  # function call
